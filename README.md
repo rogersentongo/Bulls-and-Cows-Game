@@ -1,8 +1,8 @@
-# Bulls-and-Cows-Game
+## Bulls-and-Cows-Game
 
 Number Guessing Game built using Spring Boot.
 
-How to Run the program:
+# HOW TO RUN THE PROGRAM:
 
 Set up Database:
 Import the SQL statements and run them in MYSQL Workbench.
@@ -12,12 +12,12 @@ Import Bulls And Cow code into your IDE
 Change the Application properties to load the database from your local version of MYSQL Workbench
 
 
-RULES OF THE GAME:
+# RULES OF THE GAME:
 In each game a four digit number is generated where each digit is not the same. A player can play for several rounds. In each round the player guesses the correct digit in the correct position. A partial match is when the player guesses the correct digit but in the wrong position. Once a number is guessed with all exact matches, the player wins the game.
 
 Results are returned as "e:0:p:0" where e stands for exact matches and p stands for partial matches.
 
-How to Run the Application:
+# HOW TO PLAY THE GAME:
 
 The application uses REST endpoints to play the game:
 
