@@ -13,11 +13,9 @@ Change the Application properties to load the database from your local version o
 
 
 ## RULES OF THE GAME:
-<<<<<<< HEAD
 In each game a four digit number is generated where each digit is not the same. A user can play for several rounds. In each round the player guesses the correct digit in the correct position. A partial match is when the player guesses the correct digit but in the wrong position. Once a number is guessed with all exact matches, the player wins the game.
-=======
+
 In each game a four digit number is generated where each digit is not the same. A player can play for several rounds. In each round the player guesses the correct digit in the correct position. A partial match is when the player guesses the correct digit but in the wrong position. Once a number is guessed with all exact matches, the player wins the game.
->>>>>>> f89c3002525f8f258b9526d9f815159e7b08e0ce
 
 Results are returned as "e:0:p:0" where e stands for exact matches and p stands for partial matches.
 
