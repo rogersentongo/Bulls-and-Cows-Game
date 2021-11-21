@@ -24,8 +24,12 @@ Results are returned as "e:0:p:0" where e stands for exact matches and p stands 
 The application uses REST endpoints to play the game:
 
 Start the game with a POST to localhost:8080/api/begin to generate a number in the database.
+
 Make a guess with a POST to localhost:8080/api/guess. The JSON body should have a number guess and a gameid. Results will be returned
+
 Get a view of all games played so far with a GET to localhost:808/api/game
+
 Get a single game with a GET to localhost:8080/api/game/{gameid}
+
 Get a list of rounds played for a specific game with a GET to localhost:808/rounds/{gameid}
 
